@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter, usePathname } from "next/navigation";
-import { HtmlNode } from "@/lib/htmlTree";
+import { HtmlNode } from "@/lib/html/htmlTree";
 import { useState } from "react";
 import clsx from "clsx";
 
