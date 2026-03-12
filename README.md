@@ -1,36 +1,138 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+1️⃣ HTML Fundamentals
 
-## Getting Started
+What is HTML?
 
-First, run the development server:
+History of HTML
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+HTML Structure
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<html>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<head>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<body>
 
-## Learn More
+HTML Elements
 
-To learn more about Next.js, take a look at the following resources:
+HTML Tags
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Attributes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Nesting
 
-## Deploy on Vercel
+Comments
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🔵 2️⃣ Text & Content Elements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Headings (h1 - h6)
+
+Paragraph (p)
+
+Formatting:
+
+strong
+
+em
+
+mark
+
+small
+
+Line break (br)
+
+Horizontal rule (hr)
+
+Blockquote
+
+Code
+
+Pre
+
+🟡 3️⃣ Links & Media
+
+a
+
+Image (img)
+
+Audio
+
+Video
+
+iframe
+
+🟣 4️⃣ Lists & Tables
+
+ul
+
+ol
+
+li
+
+Table
+
+table
+
+tr
+
+td
+
+th
+
+thead
+
+tbody
+
+🟠 5️⃣ Forms (Very Important Interview Section)
+
+form
+
+input
+
+label
+
+textarea
+
+select
+
+option
+
+button
+
+Input types
+
+name vs id
+
+method
+
+action
+
+GET vs POST
+
+🔴 6️⃣ Semantic & Layout
+
+header
+
+nav
+
+main
+
+section
+
+article
+
+aside
+
+footer
+
+div vs semantic
+
+Accessibility basics
+
+🧠 এখন Implementation Strategy
+
+আমরা ৩টা জায়গায় কাজ করবো:
+
+1️⃣ lib/htmlTree.ts → Structure expand
+2️⃣ lib/htmlTopics.ts → Content expand
+3️⃣ app/html/[slug]/page.tsx → Already ready
+🚀 এ
